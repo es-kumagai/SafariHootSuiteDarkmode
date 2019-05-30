@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1A6C1C922A025D3008A1B21 /* HootSuiteDarkmode.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1C822A025D3008A1B21 /* HootSuiteDarkmode.entitlements */; };
+		B1A6C1CB22A025D3008A1B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6C1CA22A025D3008A1B21 /* AppDelegate.swift */; };
+		B1A6C1CE22A025D3008A1B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1CC22A025D3008A1B21 /* Main.storyboard */; };
+		B1A6C1D022A025D3008A1B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6C1CF22A025D3008A1B21 /* ViewController.swift */; };
+		B1A6C1D222A025D4008A1B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1D122A025D4008A1B21 /* Assets.xcassets */; };
+		B1A6C1D922A025D4008A1B21 /* HootSuiteDarkmode Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B1A6C1D822A025D4008A1B21 /* HootSuiteDarkmode Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B1A6C1DE22A025D4008A1B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A6C1DD22A025D4008A1B21 /* Cocoa.framework */; };
+		B1A6C1E122A025D4008A1B21 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6C1E022A025D4008A1B21 /* SafariExtensionHandler.swift */; };
+		B1A6C1E322A025D4008A1B21 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6C1E222A025D4008A1B21 /* SafariExtensionViewController.swift */; };
+		B1A6C1E622A025D4008A1B21 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1E422A025D4008A1B21 /* SafariExtensionViewController.xib */; };
+		B1A6C1E922A025D4008A1B21 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1E822A025D4008A1B21 /* script.js */; };
+		B1A6C1EB22A025D4008A1B21 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1EA22A025D4008A1B21 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1A6C1DA22A025D4008A1B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1A6C1BD22A025D3008A1B21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1A6C1D722A025D4008A1B21;
+			remoteInfo = "HootSuiteDarkmode Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1A6C1F222A025D4008A1B21 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B1A6C1D922A025D4008A1B21 /* HootSuiteDarkmode Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1A6C1C522A025D3008A1B21 /* HootSuiteDarkmode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HootSuiteDarkmode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A6C1C822A025D3008A1B21 /* HootSuiteDarkmode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HootSuiteDarkmode.entitlements; sourceTree = "<group>"; };
+		B1A6C1CA22A025D3008A1B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1A6C1CD22A025D3008A1B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1A6C1CF22A025D3008A1B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1A6C1D122A025D4008A1B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1A6C1D322A025D4008A1B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A6C1D822A025D4008A1B21 /* HootSuiteDarkmode Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HootSuiteDarkmode Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A6C1DD22A025D4008A1B21 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B1A6C1E022A025D4008A1B21 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		B1A6C1E222A025D4008A1B21 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		B1A6C1E522A025D4008A1B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		B1A6C1E722A025D4008A1B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A6C1E822A025D4008A1B21 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		B1A6C1EA22A025D4008A1B21 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		B1A6C1EC22A025D4008A1B21 /* HootSuiteDarkmode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HootSuiteDarkmode_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1A6C1C222A025D3008A1B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A6C1D522A025D4008A1B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A6C1DE22A025D4008A1B21 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1A6C1BC22A025D3008A1B21 = {
+			isa = PBXGroup;
+			children = (
+				B1A6C1C722A025D3008A1B21 /* HootSuiteDarkmode */,
+				B1A6C1DF22A025D4008A1B21 /* HootSuiteDarkmode Extension */,
+				B1A6C1DC22A025D4008A1B21 /* Frameworks */,
+				B1A6C1C622A025D3008A1B21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1A6C1C622A025D3008A1B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1A6C1C522A025D3008A1B21 /* HootSuiteDarkmode.app */,
+				B1A6C1D822A025D4008A1B21 /* HootSuiteDarkmode Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1A6C1C722A025D3008A1B21 /* HootSuiteDarkmode */ = {
+			isa = PBXGroup;
+			children = (
+				B1A6C1C822A025D3008A1B21 /* HootSuiteDarkmode.entitlements */,
+				B1A6C1CA22A025D3008A1B21 /* AppDelegate.swift */,
+				B1A6C1CC22A025D3008A1B21 /* Main.storyboard */,
+				B1A6C1CF22A025D3008A1B21 /* ViewController.swift */,
+				B1A6C1D122A025D4008A1B21 /* Assets.xcassets */,
+				B1A6C1D322A025D4008A1B21 /* Info.plist */,
+			);
+			path = HootSuiteDarkmode;
+			sourceTree = "<group>";
+		};
+		B1A6C1DC22A025D4008A1B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1A6C1DD22A025D4008A1B21 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1A6C1DF22A025D4008A1B21 /* HootSuiteDarkmode Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B1A6C1E022A025D4008A1B21 /* SafariExtensionHandler.swift */,
+				B1A6C1E222A025D4008A1B21 /* SafariExtensionViewController.swift */,
+				B1A6C1E422A025D4008A1B21 /* SafariExtensionViewController.xib */,
+				B1A6C1E722A025D4008A1B21 /* Info.plist */,
+				B1A6C1E822A025D4008A1B21 /* script.js */,
+				B1A6C1EA22A025D4008A1B21 /* ToolbarItemIcon.pdf */,
+				B1A6C1EC22A025D4008A1B21 /* HootSuiteDarkmode_Extension.entitlements */,
+			);
+			path = "HootSuiteDarkmode Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1A6C1C422A025D3008A1B21 /* HootSuiteDarkmode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A6C1F322A025D4008A1B21 /* Build configuration list for PBXNativeTarget "HootSuiteDarkmode" */;
+			buildPhases = (
+				B1A6C1C122A025D3008A1B21 /* Sources */,
+				B1A6C1C222A025D3008A1B21 /* Frameworks */,
+				B1A6C1C322A025D3008A1B21 /* Resources */,
+				B1A6C1F222A025D4008A1B21 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1A6C1DB22A025D4008A1B21 /* PBXTargetDependency */,
+			);
+			name = HootSuiteDarkmode;
+			productName = HootSuiteDarkmode;
+			productReference = B1A6C1C522A025D3008A1B21 /* HootSuiteDarkmode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1A6C1D722A025D4008A1B21 /* HootSuiteDarkmode Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A6C1EF22A025D4008A1B21 /* Build configuration list for PBXNativeTarget "HootSuiteDarkmode Extension" */;
+			buildPhases = (
+				B1A6C1D422A025D4008A1B21 /* Sources */,
+				B1A6C1D522A025D4008A1B21 /* Frameworks */,
+				B1A6C1D622A025D4008A1B21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HootSuiteDarkmode Extension";
+			productName = "HootSuiteDarkmode Extension";
+			productReference = B1A6C1D822A025D4008A1B21 /* HootSuiteDarkmode Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1A6C1BD22A025D3008A1B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tomohiro Kumagai";
+				TargetAttributes = {
+					B1A6C1C422A025D3008A1B21 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B1A6C1D722A025D4008A1B21 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B1A6C1C022A025D3008A1B21 /* Build configuration list for PBXProject "HootSuiteDarkmode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1A6C1BC22A025D3008A1B21;
+			productRefGroup = B1A6C1C622A025D3008A1B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1A6C1C422A025D3008A1B21 /* HootSuiteDarkmode */,
+				B1A6C1D722A025D4008A1B21 /* HootSuiteDarkmode Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1A6C1C322A025D3008A1B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A6C1C922A025D3008A1B21 /* HootSuiteDarkmode.entitlements in Resources */,
+				B1A6C1D222A025D4008A1B21 /* Assets.xcassets in Resources */,
+				B1A6C1CE22A025D3008A1B21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A6C1D622A025D4008A1B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A6C1EB22A025D4008A1B21 /* ToolbarItemIcon.pdf in Resources */,
+				B1A6C1E622A025D4008A1B21 /* SafariExtensionViewController.xib in Resources */,
+				B1A6C1E922A025D4008A1B21 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1A6C1C122A025D3008A1B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A6C1D022A025D3008A1B21 /* ViewController.swift in Sources */,
+				B1A6C1CB22A025D3008A1B21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1A6C1D422A025D4008A1B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A6C1E322A025D4008A1B21 /* SafariExtensionViewController.swift in Sources */,
+				B1A6C1E122A025D4008A1B21 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1A6C1DB22A025D4008A1B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1A6C1D722A025D4008A1B21 /* HootSuiteDarkmode Extension */;
+			targetProxy = B1A6C1DA22A025D4008A1B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1A6C1CC22A025D3008A1B21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1A6C1CD22A025D3008A1B21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1A6C1E422A025D4008A1B21 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1A6C1E522A025D4008A1B21 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1A6C1ED22A025D4008A1B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1A6C1EE22A025D4008A1B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B1A6C1F022A025D4008A1B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HootSuiteDarkmode Extension/HootSuiteDarkmode_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HootSuiteDarkmode Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-net.HootSuiteDarkmode-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1A6C1F122A025D4008A1B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "HootSuiteDarkmode Extension/HootSuiteDarkmode_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HootSuiteDarkmode Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-net.HootSuiteDarkmode-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B1A6C1F422A025D4008A1B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HootSuiteDarkmode/HootSuiteDarkmode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HootSuiteDarkmode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-net.HootSuiteDarkmode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1A6C1F522A025D4008A1B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HootSuiteDarkmode/HootSuiteDarkmode.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HootSuiteDarkmode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.ez-net.HootSuiteDarkmode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1A6C1C022A025D3008A1B21 /* Build configuration list for PBXProject "HootSuiteDarkmode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A6C1ED22A025D4008A1B21 /* Debug */,
+				B1A6C1EE22A025D4008A1B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A6C1EF22A025D4008A1B21 /* Build configuration list for PBXNativeTarget "HootSuiteDarkmode Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A6C1F022A025D4008A1B21 /* Debug */,
+				B1A6C1F122A025D4008A1B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A6C1F322A025D4008A1B21 /* Build configuration list for PBXNativeTarget "HootSuiteDarkmode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A6C1F422A025D4008A1B21 /* Debug */,
+				B1A6C1F522A025D4008A1B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1A6C1BD22A025D3008A1B21 /* Project object */;
+}
