@@ -1,0 +1,138 @@
+/* コンテンツがない場合の表示領域 */
+.rc-EmptyMessageListContext {
+    
+    color: white !important;
+    background-color: #555 !important;
+}
+
+/* 一般的な明るいボタンの状態 */
+.btn-lite-sta {
+    
+    color: #888 !important;
+    background-color: #444 !important;
+    border-color: #777 !important;
+}
+
+/* 一般的な明るいボタンの状態、マウスを乗せた時 */
+.btn-lite-sta:hover {
+    
+    border-color: white !important;
+}
+
+.btn-lite-sta:active {
+    
+    background-color: #d2b48c !important;
+}
+
+/* しばらく操作していないときに重ねられる背景 */
+.ui-widget-overlay {
+    
+    background-color: rgba(30, 30, 30, 0.7) !important;
+}
+
+/* しばらく操作していないときに重ねられる背景のダイアログ背景 */
+.prc-ModalBase .-modalDialog.x-default, .rc-ModalBase .-modalDialog.x-default {
+    
+    background-color: #555 !important;
+    border-top-color: #ffd900 !important;
+}
+
+/* しばらく操作していないときに重ねられる背景のタイトルバー */
+.ui-dialog-titlebar {
+    
+    color: white !important;
+    background-color: #444 !important;
+}
+
+/* しばらく操作していないときに重ねられる背景のメインコンテンツ */
+.ui-dialog-section {
+    
+    color: #eee !important;
+    background-color: #333 !important;
+}
+
+.btn-cmt {
+    
+    color: #222 !important;
+    background-color: #ffd900 !important;
+    border-color: #e6b422 !important;
+}
+
+.btn-cmt:active {
+    
+}
+
+.btn-cmt:hover {
+    
+    color: #8d6449 !important;
+    background-color: #f8e58c !important;
+}
+
+/* ストリーム編集画面 */
+.sidebarTabs .tab {
+    
+    color: white !important;
+}
+
+.sidebarTabs .tab a {
+
+    color: #bbb !important;
+}
+
+.sidebarTabs .tab.active {
+    
+    background-color: #888 !important;
+    box-shadow: inset 5px 0 #f8e58c !important;
+}
+
+.sidebarTabs .tab.active a {
+
+    color: white !important;
+}
+
+.topTabs .tab {
+    
+    color: #bbb !important;
+}
+
+.topTabs .tab.active {
+
+    color: white !important;
+    background-color: #888 !important;
+}
+
+label.title, label .title {
+    
+    color: white !important;
+    text-shadow: none !important;
+}
+
+.ui-input, input, select, textarea, select.clean:focus {
+    
+    color: white !important;
+    background-color: #888 !important;
+    box-shadow: none !important;
+}
+
+.profileSelectorWidget .selectedList {
+    
+    color: white !important;
+    background-color: #888 !important;
+    box-shadow: none !important;
+}
+
+.profileSelectorWidget .picker .footer {
+    
+    background-color: #444 !important;
+}
+
+.profileSelectorWidget .picker {
+
+    background-color: #222 !important;
+}
+
+.ui-dialog-section .list-scroll {
+    
+    background-color: #888 !important;
+    boarder-color: #444 !important;
+}

@@ -1,0 +1,137 @@
+
+div.streamsContainer {
+    
+    background-color: black !important;
+    top: 56px !important;
+}
+
+/* コンテンツフィールドの最も下地の部分 */
+div.rc-MessageList {
+    
+    background-color: black !important;
+}
+
+/* コンテンツが存在しないフィールドの最も下地の部分 */
+div.rc-MessageListContext {
+    
+    background-color: black !important;
+}
+
+div.rc-MessageContext {
+    
+    color: white !important;
+    background-color: #333 !important;
+    border-color: black !important;
+}
+
+h3.streamName {
+    
+    color: white !important;
+}
+
+div.header {
+    
+    background-color: #444 !important;
+}
+
+.icon-19 {
+    
+    filter: blightness(500%) !important; /* 効果確認できず */
+}
+
+/* 各ツイートの表示名とスクリーン名 */
+span.-authorName {
+    
+    color: #a2d7dd !important;
+}
+
+/* 各ツイートの表示名 */
+span.-authorName span.-name {
+    
+}
+
+/* 各ツイートのスクリーン名 */
+span.-authorName span.-username {
+    
+    color: #bbc8e6 !important;
+}
+
+/* 各ツイートのツイート時間が記載された箇所 */
+div.rc-Metadata {
+    
+    color: #ccc !important;
+}
+
+/* 各ツイートのツイートリプライ先が記載された箇所 */
+.rc-Headline .-text {
+    
+    color: #e0ffff !important;
+}
+
+/* 各ツイートのツイートリプライ先が記載された箇所の、リプライ先アカウントのリンク */
+.rc-Headline .-text a {
+    
+    color: #84b9cb !important;
+}
+
+/* 各ツイート内のリンクテキスト */
+div.rc-Message div.-text a {
+    
+    color: #90ee90 !important;
+}
+
+/* スレッドを表示するためのボタン */
+.rc-ConversationToggle .-toggleButton {
+    
+    color: #83ccd2 !important;
+}
+
+/* 各ツイートのお気に入りなどのアクション数 */
+.rc-ActionItem span.-text {
+    
+    color: #ccc !important;
+}
+
+/* 各ツイートのお気に入りなどのアクション数のうち、リンクを伴う項目 */
+div.rc-Actions a.-text {
+    
+    color: #ccc !important;
+}
+
+/* ツイートの画像 */
+.rc-Photo {
+    
+}
+
+/* ツイートの画像 */
+.rc-Photo img {
+    
+    opacity: 0.77 !important;
+}
+
+/* ツイートの画像（マウスを乗せたとき） */
+.rc-Photo img:hover {
+    
+    opacity: 1.0 !important;
+}
+
+/* 新規投稿があった時の通知 */
+.rc-LegacyNotificationWidget.x-fill.x-info {
+    
+    height: 30px !important;
+    background-color: #ffec47 !important;
+}
+
+/* 新規投稿があった時の通知、アイコンを乗せる枠 */
+.rc-LegacyNotificationWidget .-iconWrapper {
+    
+    padding: 2px 8px !important;
+}
+
+/* 新規投稿があった時の通知、アイコン */
+.rc-LegacyNotificationWidget.x-fill.x-info .-icon {
+    
+    color: #f8b500 !important;
+    background-color: black !important;
+    padding: 3px !important;
+}

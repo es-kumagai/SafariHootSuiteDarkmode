@@ -1,0 +1,31 @@
+
+/* 最上部にあるストリームヘッダー */
+#streamsHeader {
+    
+    color: white !important;
+    background-color: #333 !important;
+}
+
+/* ストリームヘッダーの "新規投稿" */
+.jhDGeB {
+    
+    background-color: #111 !important;
+    height: 30px !important;
+}
+
+/* ストリームヘッダーの "Upgrade my plan" */
+.hNWsUW, .eDiYDX {
+    
+    height: 20px !important;
+}
+
+/* ストリームヘッダーの、右側アイコン */
+.fMkoAo {
+    
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+}
