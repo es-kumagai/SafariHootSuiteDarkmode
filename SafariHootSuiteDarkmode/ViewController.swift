@@ -15,7 +15,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "HootSuiteDarkmode";
+        self.appNameLabel.stringValue = "SafariHootSuiteDarkmode";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
