@@ -18,6 +18,7 @@
 		B1A6C1E322A025D4008A1B21 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A6C1E222A025D4008A1B21 /* SafariExtensionViewController.swift */; };
 		B1A6C1E622A025D4008A1B21 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1E422A025D4008A1B21 /* SafariExtensionViewController.xib */; };
 		B1A6C1F722A025F0008A1B21 /* darkmode.css in Resources */ = {isa = PBXBuildFile; fileRef = B1A6C1F622A025F0008A1B21 /* darkmode.css */; };
+		B1BD684122A789AD002A9BB7 /* darkmode.js in Resources */ = {isa = PBXBuildFile; fileRef = B1BD684022A789AD002A9BB7 /* darkmode.js */; };
 		B1C4AB9C22A61DE90049761F /* ICON.afdesign in Resources */ = {isa = PBXBuildFile; fileRef = B1C4AB9B22A61DE80049761F /* ICON.afdesign */; };
 		B1CD3D6922A12C1C00922277 /* darkmode-base.css in Resources */ = {isa = PBXBuildFile; fileRef = B1CD3D6822A12C1C00922277 /* darkmode-base.css */; };
 		B1CD3D6B22A12CAD00922277 /* darkmode-stream-header.css in Resources */ = {isa = PBXBuildFile; fileRef = B1CD3D6A22A12CAD00922277 /* darkmode-stream-header.css */; };
@@ -65,6 +66,7 @@
 		B1A6C1E722A025D4008A1B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1A6C1EC22A025D4008A1B21 /* SafariHootSuiteDarkmode_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafariHootSuiteDarkmode_Extension.entitlements; sourceTree = "<group>"; };
 		B1A6C1F622A025F0008A1B21 /* darkmode.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = darkmode.css; sourceTree = "<group>"; };
+		B1BD684022A789AD002A9BB7 /* darkmode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = darkmode.js; sourceTree = "<group>"; };
 		B1C4AB9B22A61DE80049761F /* ICON.afdesign */ = {isa = PBXFileReference; lastKnownFileType = file; path = ICON.afdesign; sourceTree = "<group>"; };
 		B1CD3D6822A12C1C00922277 /* darkmode-base.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "darkmode-base.css"; sourceTree = "<group>"; };
 		B1CD3D6A22A12CAD00922277 /* darkmode-stream-header.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "darkmode-stream-header.css"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				B1CD3D6C22A12CD700922277 /* darkmode-stream-tabbar.css */,
 				B1CD3D6822A12C1C00922277 /* darkmode-base.css */,
 				B1CD3D6A22A12CAD00922277 /* darkmode-stream-header.css */,
+				B1BD684022A789AD002A9BB7 /* darkmode.js */,
 			);
 			path = "SafariHootSuiteDarkmode Extension";
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				B1CD3D6F22A12E2000922277 /* darkmode-stream-container.css in Resources */,
 				B1A6C1E622A025D4008A1B21 /* SafariExtensionViewController.xib in Resources */,
 				B1A6C1F722A025F0008A1B21 /* darkmode.css in Resources */,
+				B1BD684122A789AD002A9BB7 /* darkmode.js in Resources */,
 				B1CD3D6D22A12CD700922277 /* darkmode-stream-tabbar.css in Resources */,
 				B1CD3D6922A12C1C00922277 /* darkmode-base.css in Resources */,
 			);

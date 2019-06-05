@@ -6,21 +6,21 @@
     background-color: #333 !important;
 }
 
-/* ストリームヘッダーの "新規投稿" */
-.jhDGeB {
+/* ストリームヘッダー */
+.es-header-darkmode {
     
     background-color: #111 !important;
     height: 30px !important;
 }
 
 /* ストリームヘッダーの "Upgrade my plan" */
-.hNWsUW, .eDiYDX {
+.es-header-darkmode-button {
     
     height: 20px !important;
 }
 
 /* ストリームヘッダーの、右側アイコン */
-.fMkoAo {
+.-global-account-navigation-anchor {
     
     width: 20px !important;
     height: 20px !important;
