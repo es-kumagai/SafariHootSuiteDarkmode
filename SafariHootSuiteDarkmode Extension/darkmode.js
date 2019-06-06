@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function applyDarkmode() {
     
     applyDarkmodeToStreamHeader();
+    applyDarkmodeToTweetNewStyleReplies();
+}
+
+function applyDarkmodeToTweetNewStyleReplies() {
+
+    const modalDialogNode = document.getElementById('modalDialog');
+    const characterCounterNode = modalDialog.getElementsByClassName('-characterCounterArea')[0];
+    
+    characterCounterNode.classList.add('es-character-counter-text');
 }
 
 // ナビゲーションのアイコンをクリックする度に、ダークモードを再反映するようにします。

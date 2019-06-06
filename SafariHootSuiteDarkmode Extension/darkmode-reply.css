@@ -1,0 +1,115 @@
+
+.rc-TwitterNewStyleReplies .-modalBackdrop {
+    
+    background-color: #555 !important;
+}
+
+.rc-TwitterNewStyleReplies .-dialogHeader {
+
+    background-color: #444 !important;
+    border-top-color: #ffd900 !important;
+    border-bottom-color: #666 !important;
+}
+
+.rc-TwitterNewStyleReplies .-conversationHistoryArea .-bottom {
+    
+    border-bottom-color: #666 !important;
+}
+
+.rc-TwitterNewStyleReplies .-content {
+    
+    background-color: #443 !important;
+}
+
+.rc-TwitterNewStyleReplies .-headerText {
+    
+    color: white !important;
+}
+
+.rc-TwitterNewStyleReplies .-context {
+    
+    color: white !important;
+    background-color: #333 !important;
+    border-color: black !important;
+}
+
+/* リプライ先のユーザー名を含むリンク */
+.rc-TwitterNewStyleReplies a {
+
+    color: #a2d7dd !important;
+}
+
+/* リプライ先のスクリーン名 */
+.rc-TwitterNewStyleReplies span.-username {
+    
+    color: #bbc8e6 !important;
+}
+
+/* リプライ先のツイート時間が記載された箇所 */
+.rc-TwitterNewStyleReplies span.-createdAt {
+    
+    color: #ccc !important;
+}
+
+/* リプライ先の再表示 */
+.rc-TwitterNewStyleReplies span.-replyTo {
+    
+    color: #ffd700 !important;
+}
+
+/* リプライの入力領域 */
+.rc-TwitterNewStyleReplies .-inlineCompose {
+    
+    color: white !important;
+    background-color: #444 !important;
+    border-color: #bdb76b !important;
+}
+
+/* リプライのテキスト入力領域 */
+.rc-TwitterNewStyleReplies div.rc-TextArea textarea {
+    
+    color: white !important;
+    background-color: #444 !important;
+}
+
+/* Show Conversation History */
+.rc-TwitterNewStyleReplies .rc-Button.x-link {
+    
+    color: #bdb76b !important;
+}
+
+/* 送信ボタン */
+.rc-TwitterNewStyleReplies .rc-Button.x-primary {
+    
+    color: black !important;
+    background-color: #ffd900 !important;
+    border-color: #bdb76b !important;
+}
+
+/* キャンセルボタン */
+.rc-TwitterNewStyleReplies .rc-Button.x-secondary {
+    
+    color: #bdb76b !important;
+}
+
+/* 会話表示のための帯 */
+.rc-TwitterNewStyleReplies .-conversationHistoryArea {
+    
+    background-color: #555 !important;
+}
+
+.rc-TwitterNewStyleReplies .-conversationHistoryArea .-top .-conversationHideButtonFixed {
+    
+    background-color: #665 !important;
+}
+
+/* 文字数カウント */
+.rc-TwitterNewStyleReplies .es-character-counter-text {
+    
+    color: white !important;
+}
+
+.-replyItem {
+    
+    color: #ccc !important;
+}

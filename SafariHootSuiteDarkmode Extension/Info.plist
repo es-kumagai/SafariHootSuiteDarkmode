@@ -81,6 +81,14 @@
 				<key>Style Sheet</key>
 				<string>darkmode-stream-container.css</string>
 			</dict>
+			<dict>
+				<key>Allowed URL Patterns</key>
+				<array>
+					<string>https://hootsuite.com/dashboard</string>
+				</array>
+				<key>Style Sheet</key>
+				<string>darkmode-reply.css</string>
+			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
