@@ -19,7 +19,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -88,6 +88,14 @@
 				</array>
 				<key>Style Sheet</key>
 				<string>darkmode-reply.css</string>
+			</dict>
+			<dict>
+				<key>Allowed URL Patterns</key>
+				<array>
+					<string>https://hootsuite.com/dashboard</string>
+				</array>
+				<key>Style Sheet</key>
+				<string>darkmode-userinfo.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

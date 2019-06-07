@@ -1,0 +1,78 @@
+/* ユーザー情報ダイアログの "フォロー" と "更新" のテキスト */
+.userInfoBox .userDetails .item {
+    
+    color: #aaa !important;
+}
+
+/* ユーザー情報ダイアログの "フォロー数" と "更新" の数値表記 */
+.userInfoBox .userDetails .item p {
+ 
+    color: white !important;
+}
+
+/* ユーザー情報ダイアログの "フォロワー" のテキストと数値表記 */
+.userInfoBox .userDetails .item em {
+
+    color: white !important;
+}
+
+/* ユーザー情報ダイアログ内のリンク */
+.userInfoBox a, .userInfoBox .link {
+    
+    color: #90ee90 !important;
+}
+
+/* ユーザー情報ダイアログ内の "全ての関係を見る" */
+.userInfoBox .relationships a {
+    
+    color: #83ccd2 !important;
+}
+
+/* ユーザー情報ダイアログ内の、ユーザー名 */
+.userInfoBox a.networkName {
+    
+    color: #a2d7dd !important;
+}
+
+/* ユーザー情報ダイアログ内の、投稿日 */
+.userInfoBox a.postTime {
+    
+    color: #ccc !important;
+}
+
+/* 自己紹介 */
+.userInfoBox table .value {
+    
+    color: white !important;
+}
+
+/* ユーザー情報ダイアログの写真 */
+.userInfoBox .socialAvatar {
+    
+    background-color: transparent !important;
+}
+
+/* ユーザー情報の各セル（ここで水平線も表現） */
+.userInfoBox table td {
+    
+    border-color: #555 !important;
+}
+
+/* "接続" タブ内のフィールド */
+.userInfoBox .stream .message, .userInfoBox .stream .noMessage, .userInfoBox .originalMessage .message {
+    
+    background-color: #444 !important;
+    border-color: #666 !important;
+}
+
+/* "接続" タブ内の通常テキスト */
+.userInfoBox .message p {
+    
+    color: white !important;
+}
+
+/* インタラクション履歴の、コンテンツ領域内ヘッダーテキスト */
+.userInfoBox .interactions h2 {
+    
+    color: #ccc !important;
+}

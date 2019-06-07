@@ -1,1 +1,6 @@
 
+/* 19x19 サイズのアイコン画像 */
+.icon-19 {
+    
+    filter: brightness(800%) !important;
+}
