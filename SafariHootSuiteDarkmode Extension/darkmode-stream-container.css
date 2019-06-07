@@ -130,3 +130,13 @@ div.rc-Actions a.-text {
     background-color: black !important;
     padding: 3px !important;
 }
+
+.stream ::-webkit-scrollbar-thumb {
+    
+    background-color: #444 !important;
+}
+
+.stream:hover ::-webkit-scrollbar-thumb {
+    
+    background-color: #888 !important;
+}
