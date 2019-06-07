@@ -34,11 +34,6 @@ div.header {
     background-color: #444 !important;
 }
 
-.icon-19 {
-    
-    filter: blightness(500%) !important; /* 効果確認できず */
-}
-
 /* 各ツイートの表示名とスクリーン名 */
 span.-authorName {
     
