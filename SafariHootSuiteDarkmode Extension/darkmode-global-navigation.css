@@ -1,0 +1,35 @@
+#dashboard {
+
+    background-color: #000 !important;
+}
+
+/* ダッシュボードのタブ */
+.-brandRefresh #dashboardTabs {
+
+    
+}
+
+/* グローバルのスクロールバー */
+:not(.notCustomScroll)::-webkit-scrollbar-thumb {
+   
+   background-color: #666 !important;
+}
+
+/* コンテンツのスクロールバー */
+.stream ::-webkit-scrollbar-thumb {
+    
+    background-color: #666 !important;
+}
+
+/* コンテンツのスクロールバーの下地 */
+.-brandRefresh .streamsContainer.x-react ::-webkit-scrollbar {
+
+    background-color: #333 !important;
+}
+
+/* ストリームタブ */
+.-brandRefresh #streamTabInfo .controls {
+    
+    color: #EEE !important;
+    background-color: #444 !important;
+}

@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
 	<string>6</string>
 	<key>LSMinimumSystemVersion</key>
@@ -96,6 +96,22 @@
 				</array>
 				<key>Style Sheet</key>
 				<string>darkmode-userinfo.css</string>
+			</dict>
+			<dict>
+				<key>Allowed URL Patterns</key>
+				<array>
+					<string>https://hootsuite.com/dashboard</string>
+				</array>
+				<key>Style Sheet</key>
+				<string>darkmode-dashboard.css</string>
+			</dict>
+			<dict>
+				<key>Allowed URL Patterns</key>
+				<array>
+					<string>https://hootsuite.com/dashboard</string>
+				</array>
+				<key>Style Sheet</key>
+				<string>darkmode-global-navigation.css</string>
 			</dict>
 		</array>
 		<key>SFSafariWebsiteAccess</key>

@@ -26,6 +26,8 @@
 		B1CD3D6B22A12CAD00922277 /* darkmode-stream-header.css in Resources */ = {isa = PBXBuildFile; fileRef = B1CD3D6A22A12CAD00922277 /* darkmode-stream-header.css */; };
 		B1CD3D6D22A12CD700922277 /* darkmode-stream-tabbar.css in Resources */ = {isa = PBXBuildFile; fileRef = B1CD3D6C22A12CD700922277 /* darkmode-stream-tabbar.css */; };
 		B1CD3D6F22A12E2000922277 /* darkmode-stream-container.css in Resources */ = {isa = PBXBuildFile; fileRef = B1CD3D6E22A12E2000922277 /* darkmode-stream-container.css */; };
+		B1E6006824EA8390000CBED9 /* darkmode-dashboard.css in Resources */ = {isa = PBXBuildFile; fileRef = B1E6006724EA8390000CBED9 /* darkmode-dashboard.css */; };
+		B1E6006A24EA8585000CBED9 /* darkmode-global-navigation.css in Resources */ = {isa = PBXBuildFile; fileRef = B1E6006924EA8585000CBED9 /* darkmode-global-navigation.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		B1CD3D6A22A12CAD00922277 /* darkmode-stream-header.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "darkmode-stream-header.css"; sourceTree = "<group>"; };
 		B1CD3D6C22A12CD700922277 /* darkmode-stream-tabbar.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "darkmode-stream-tabbar.css"; sourceTree = "<group>"; };
 		B1CD3D6E22A12E2000922277 /* darkmode-stream-container.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "darkmode-stream-container.css"; sourceTree = "<group>"; };
+		B1E6006724EA8390000CBED9 /* darkmode-dashboard.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "darkmode-dashboard.css"; sourceTree = "<group>"; };
+		B1E6006924EA8585000CBED9 /* darkmode-global-navigation.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "darkmode-global-navigation.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 				B1A6C1E722A025D4008A1B21 /* Info.plist */,
 				B1A6C1EC22A025D4008A1B21 /* SafariHootSuiteDarkmode_Extension.entitlements */,
 				B1A6C1F622A025F0008A1B21 /* darkmode.css */,
+				B1E6006724EA8390000CBED9 /* darkmode-dashboard.css */,
+				B1E6006924EA8585000CBED9 /* darkmode-global-navigation.css */,
 				B1CD3D6E22A12E2000922277 /* darkmode-stream-container.css */,
 				B1CD3D6C22A12CD700922277 /* darkmode-stream-tabbar.css */,
 				B1CD3D6822A12C1C00922277 /* darkmode-base.css */,
@@ -259,10 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CD3D6B22A12CAD00922277 /* darkmode-stream-header.css in Resources */,
+				B1E6006A24EA8585000CBED9 /* darkmode-global-navigation.css in Resources */,
 				B1C48B1922A98E790042E794 /* darkmode-reply.css in Resources */,
 				B1CD3D6F22A12E2000922277 /* darkmode-stream-container.css in Resources */,
 				B1A6C1E622A025D4008A1B21 /* SafariExtensionViewController.xib in Resources */,
 				B1A6C1F722A025F0008A1B21 /* darkmode.css in Resources */,
+				B1E6006824EA8390000CBED9 /* darkmode-dashboard.css in Resources */,
 				B1BBDB2222AA1AF00098F308 /* darkmode-userinfo.css in Resources */,
 				B1BD684122A789AD002A9BB7 /* darkmode.js in Resources */,
 				B1CD3D6D22A12CD700922277 /* darkmode-stream-tabbar.css in Resources */,
